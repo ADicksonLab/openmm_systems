@@ -799,7 +799,7 @@ You can test that it works from the index using the same
 And install the package from the test repo with no dependencies:
 
 #+begin_src bash
-pip install --index-url https://test.pypi.org/simple/ --no-deps OpenMM-Systems-salotz
+pip install --index-url https://test.pypi.org/simple/ --no-deps package
 #+end_src
 
 Then you can publish this pre-release build.
