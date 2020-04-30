@@ -1,0 +1,59 @@
+
+--index-url https://pypi.python.org/simple/
+
+# core
+pip
+wheel
+twine
+pip-tools
+pipdeptree
+
+# virtual environments
+virtualenv
+
+# interactive and debugging
+ipython
+pdbpp
+remote-pdb
+
+# utilities
+bumpversion
+
+# task running
+invoke
+fabric
+jubeo
+
+# docs
+sphinx
+guzzle_sphinx_theme
+sphinxcontrib-napoleon
+nbsphinx
+notebook
+
+# testing
+pytest
+pytest-runner
+argcomplete
+flake8
+tox
+coverage
+
+# code quality metrics
+lizard
+jinja2
+
+pytest-datadir
+pytest-cov
+pytest-benchmark
+pytest-profiling
+pytest-print
+pytest-html
+
+# need this for using multiprocessing logging in the tests
+multiprocessing_logging
+
+# this is a customized datadir module I made since the off the shelf
+# one wasn't doing what i needed. Only need this when I need to share
+# the big data until that PR gets accepted
+#git+https://github.com/salotz/pytest-datadir.git

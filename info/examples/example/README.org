@@ -1,0 +1,10 @@
+
+* This is an example
+
+You'll find the inputs in the ~input~ folder the source code scripts
+in the ~source~ directory and the outputs from the scripts will be put
+into the ~_output~ directory. Any tangled sources from this README
+should go into the ~tangle_source~ folder.
+
+Here any command line parameters or descriptions of the inputs and
+outputs should be made. Any code in the README should get tested.

@@ -1,0 +1,16 @@
+{
+    "_extensions" : ["jinja2_time.TimeExtension"],
+    "cookiecutter.project_name" : "OpenMM-Systems",
+    "cookiecutter.project_slug" : "openmm_systems",
+    "cookiecutter.project_description" : "Collection of premade molecular systems for use with OpenMM",
+    "cookiecutter.initial_version" : "0.0.0a0.dev0",
+    "cookiecutter.copyright" : "BY-NC",
+    "cookiecutter.license" : "MIT",
+    "cookiecutter.owner_name" : "Samuel D. Lotz",
+    "cookiecutter.owner_email" : "samuel.lotz@salotz.info",
+    "cookiecutter.owner_nickname" : "salotz",
+    "cookiecutter.url" : "https://github.com/ADicksonLab/OpenMM-Systems.git",
+    "cookiecutter.dev_url" : "https://github.com/ADicksonLab/OpenMM-Systems.git",
+    "cookiecutter.doc_url" : "https://adicksonlab.github.io/openmm_systems",
+    "cookiecutter.sdist_url" : "https://github.c"
+}

@@ -1,0 +1,8 @@
+jubeo
+invoke
+pip-tools
+versioneer
+ghp-import
+coverage
+pytest
+pytest-runner

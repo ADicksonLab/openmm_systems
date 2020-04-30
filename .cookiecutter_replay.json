@@ -1,0 +1,16 @@
+{
+    "_extensions" : ["jinja2_time.TimeExtension"],
+    "project_name" : "OpenMM-Systems",
+    "project_slug" : "openmm_systems",
+    "project_description" : "Collection of premade molecular systems for use with OpenMM",
+    "initial_version" : "0.0.0a0.dev0",
+    "copyright" : "BY-NC",
+    "license" : "MIT",
+    "owner_name" : "Samuel D. Lotz",
+    "owner_email" : "samuel.lotz@salotz.info",
+    "owner_nickname" : "salotz",
+    "url" : "https://github.com/ADicksonLab/OpenMM-Systems.git",
+    "dev_url" : "https://github.com/ADicksonLab/OpenMM-Systems.git",
+    "doc_url" : "https://adicksonlab.github.io/openmm_systems",
+    "sdist_url" : "https://github.c"
+}

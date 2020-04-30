@@ -1,0 +1,56 @@
+# ALERT: don't include the project itself in this file, do it in the
+# self.requirements.txt file
+
+--index-url https://pypi.python.org/simple/
+
+# packaging
+pip
+wheel
+twine
+pip-tools
+
+# interactive and debugging
+ipython
+pdbpp
+
+# utilities
+versioneer
+
+
+# task running
+invoke
+fabric
+jubeo
+
+# testing
+pytest
+pytest-runner
+argcomplete
+nox
+delegator.py
+pytest-datadir
+pytest-print
+pytest-html
+# git+https://github.com/salotz/pytest-datadir.git
+# TODO: pytest-fancydir
+# pytest-cov
+# pytest-benchmark
+# pytest-profiling
+
+# code quality metrics
+lizard
+flake8
+coverage
+
+# docs
+sphinx
+guzzle_sphinx_theme
+sphinxcontrib-napoleon
+nbsphinx
+notebook
+
+# website
+nikola[all]
+ghp-import
+
+
