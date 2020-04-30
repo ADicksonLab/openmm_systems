@@ -7,6 +7,32 @@ very useful, but sometimes unreliable to install on all
 platforms. Most of our projects simply make use of the test systems so
 we decided to have them installable by themselves.
 
+For the latest release:
+
+#+begin_src bash
+pip install openmm_systems
+#+end_src
+
+You will also need to have OpenMM installed. Typically this is done
+through ~conda~ but you can also compile your own.
+
+Tested succesfully with:
+
+| Python | OpenMM |
+|--------+--------|
+|    3.6 |  7.4.1 |
+|    3.6 |  7.3.1 |
+|    3.7 |  7.4.1 |
+|    3.7 |  7.3.1 |
+
+Using the ~omnia~ channel ~openmm~, e.g.:
+
+#+begin_src bash
+conda install -c omnia openmm=7.4.1
+#+end_src
+
+See the ~noxfile.py~ for full test matrix.
+
 ** Docs and Info
 
 See the [[file:./info][info]] directory for the documentation and history of the

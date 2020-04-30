@@ -20,9 +20,9 @@ import versioneer
 
 # the basic needed requirements for a package
 base_requirements = [
-    # 'numpy',
-    # 'scipy',
-    # 'mdtraj',
+    'numpy',
+    'scipy',
+    'mdtraj',
 ]
 
 # extras requirements list
