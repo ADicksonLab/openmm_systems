@@ -670,10 +670,7 @@ valid ones.
 
 The target locations for changing versions are in the following files:
 
-- [ ] ~setup.py~
-- [ ] ~src/openmm_systems/__init__.py~
 - [ ] ~tasks/config.py~
-- [ ] ~sphinx/conf.py~
 - [ ] ~conda/conda-forge/meta.yaml~ (optional)
 
 # IDEA: would like to have this done automatically with some
