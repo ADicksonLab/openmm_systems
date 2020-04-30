@@ -13,29 +13,11 @@ pip-tools
 ipython
 pdbpp
 
-# utilities
-versioneer
-
 
 # task running
 invoke
 fabric
 jubeo
-
-# testing
-pytest
-pytest-runner
-argcomplete
-nox
-delegator.py
-pytest-datadir
-pytest-print
-pytest-html
-# git+https://github.com/salotz/pytest-datadir.git
-# TODO: pytest-fancydir
-# pytest-cov
-# pytest-benchmark
-# pytest-profiling
 
 # code quality metrics
 lizard
@@ -44,7 +26,6 @@ coverage
 
 # docs
 sphinx
-guzzle_sphinx_theme
 sphinxcontrib-napoleon
 nbsphinx
 notebook

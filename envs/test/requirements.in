@@ -6,13 +6,18 @@
 ### This is a test env. Don't pin dependencies of the project. Only
 ### pin the things that are needed to run the tests.
 
+
 pytest
 pytest-runner
 
 # pytest plugins
 git+https://github.com/salotz/pytest-datadir.git
+# pytest-datadir
 pytest-print
 pytest-html
-
-# helpers for tests
-delegator.py
+pytest-shutil
+pytest-print
+pytest-mock
+pytest-cov
+pytest-benchmark
+pytest-profiling

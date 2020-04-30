@@ -1,2 +1,4 @@
 # the requirements for this project
 ./requirements.in
+.jubeo/requirements.in
+./envs/test/requirements.in
