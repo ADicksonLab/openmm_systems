@@ -7,6 +7,6 @@ from .sysconfig import *
 ## Customize these for all features
 
 PROJECT_SLUG = "openmm_systems"
-VERSION = "0.0.0a0.dev0"
+VERSION = "0.0.0.rc0"
 
 ENV_METHOD = 'conda'

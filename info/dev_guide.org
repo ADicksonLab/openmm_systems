@@ -770,6 +770,18 @@ Then you can tag the release in the ~git~ commit history:
 inv git.release
 #+end_src
 
+After you tag the release you need to rebuild everything so that
+~versioneer~ gets things right since it gets the version based on the
+tags.
+
+So:
+
+#+begin_src bash
+inv py.build
+#+end_src
+
+Then you can publish this build.
+
 Publishing the results will vary but you can start with publishing the
 package to PyPI and the VCS hosts with the real publish target:
 

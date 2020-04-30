@@ -16,7 +16,7 @@ See the git commit log history for full details.
 *** Growth
 
 
-** [0.0.0a0.dev0] - 2020-04-29
+** [0.0.0] - 2020-04-29
 
 *** Breakages
 
@@ -24,6 +24,10 @@ See the git commit log history for full details.
 
 *** Growth
 
+Copied from ~OpenMM-Tools~.
 
+This release is a simple copy paste from ~OpenMM-Tools~. If we evolve
+things further these will go in major releases so that this remains
+backwards compatible.
 
-
+Currently only have tested the few systems that we are using for ~wepy~.

@@ -36,7 +36,7 @@ _all_requirements = [[base_requirements]] + extras
 all_requirements = list(it.chain.from_iterable(_all_requirements))
 
 setup(
-    name='OpenMM-Systems',
+    name='openmm_systems',
     version=versioneer.get_version(),
     author="Samuel D. Lotz",
     author_email="samuel.lotz@salotz.info",
