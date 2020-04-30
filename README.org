@@ -1,19 +1,17 @@
 * OpenMM-Systems
 
-
 Premade molecular systems for use with [[http://openmm.org/][OpenMM]].
 
+This code was copied from the [[https://github.com/choderalab/openmmtools][OpenMMTools]] project. That project is
+very useful, but sometimes unreliable to install on all
+platforms. Most of our projects simply make use of the test systems so
+we decided to have them installable by themselves.
 
 ** Docs and Info
 
 See the [[file:./info][info]] directory for the documentation and history of the
 project. The [[file:./info/README.org][README]] serves as an index. These files are (mostly) in
 emacs org-mode and serve as the primary source of documentation. 
-
-Other web versions may exist and be published. The default
-location is at
-[[https://adicksonlab.github.io/openmm_systems][adicksonlab.github.io/openmm_systems]]
-in HTML rendered with Sphinx.
 
 ** Developing
 
