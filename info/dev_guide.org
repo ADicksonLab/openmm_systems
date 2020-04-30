@@ -815,7 +815,17 @@ inv py.publish
 
 ***** The final public release
 
+Edit the version number to something clean that won't be hidden on
+PyPI etc.
 
+Then:
+
+#+begin_src bash
+inv git.release
+inv py.build
+inv py.publish
+inv git.publish
+#+end_src
 
 ** COMMENT Misc. Tasks
 
